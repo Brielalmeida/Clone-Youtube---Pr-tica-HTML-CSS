@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox exercise</title>
+
+  <style>
+
+    body {
+      font-family: Arial;
+    }
+
+    .container {
+      box-shadow: 0 0 2px;
+      padding: 10px 15px;
+      width: 305px;
+      border-radius: 5px;
+    }
+
+    .email-label {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .email-body {
+      display: flex;
+      align-items: center;
+    }
+
+    .user-pfp {
+      width: 40px;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+
+    .email-content {
+      flex: 1;
+    }
+
+    .email-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 16px
+    }
+
+
+    .email-user-name {
+      font-weight: bold;
+    }
+
+    .email-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .email-preview {
+      font-size: 12px;
+    }
+
+    .email {
+      margin-top: 20px ;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="email-label">
+      ALL INBOXES
+    </div>
+    <div class="email">
+      <div class="email-body">
+        <div class="user-pfp-container">
+          <img class="user-pfp" src="/img/channels/channel-1.jpeg">
+        </div>
+        <div class="email-content">
+          <div class="email-header">
+            <div class="email-user-name">
+              Grande Promoção
+            </div>
+            <div class="email-hour">
+              14:00
+            </div>
+          </div>
+          <div>
+            <div class="email-title">
+              A maior do ano
+            </div>
+            <div class="email-preview">
+              Boa tarde! Estou entrando em contato para...
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="email">
+      <div class="email-body">
+        <div class="user-pfp-container">
+          <img class="user-pfp" src="/img/channels/channel-1.jpeg">
+        </div>
+        <div class="email-content">
+          <div class="email-header">
+            <div class="email-user-name">
+              Grande Promoção
+            </div>
+            <div class="email-hour">
+              14:00
+            </div>
+          </div>
+          <div>
+            <div class="email-title">
+              A maior do ano
+            </div>
+            <div class="email-preview">
+              Boa tarde! Estou entrando em contato para...
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="email">
+      <div class="email-body">
+        <div class="user-pfp-container">
+          <img class="user-pfp" src="/img/channels/channel-1.jpeg">
+        </div>
+        <div class="email-content">
+          <div class="email-header">
+            <div class="email-user-name">
+              Grande Promoção
+            </div>
+            <div class="email-hour">
+              14:00
+            </div>
+          </div>
+          <div>
+            <div class="email-title">
+              A maior do ano
+            </div>
+            <div class="email-preview">
+              Boa tarde! Estou entrando em contato para...
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
