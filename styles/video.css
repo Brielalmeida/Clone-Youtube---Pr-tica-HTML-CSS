@@ -63,6 +63,7 @@
 }
 
 
+
 @media (max-width:770px) {
   .video-preview-grid {
     grid-template-columns: 1fr 1fr;
